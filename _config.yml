@@ -1,10 +1,32 @@
 lang:                  en
-title:                 Hydejack
+title:                 Fixeddoor's Blog
+description:           A blog about software development, programming, and technology.
 copyright:             © 2024. All rights reserved.
+
+logo:                  /assets/img/Fixed_logo.png
+
+author:
+  name:                Fixed
+  email:               fixeddoor0301@gmail.com
+  # picture:           /assets/img/avatar.jpg
+
+menu:
+  - title:             About
+    url:               /about/
+  - title:             Research
+    url:               /research/
+  - title:             Code
+    url:               /code/
+  - title:             Illust
+    url:               /illust/
+  - title:             Archive
+    url:               /archive/
 
 accent_image:          /assets/img/sidebar-bg.jpg
 accent_color:          rgb(79,177,186)
 theme_color:           rgb(25,55,71)
+
+url: https://fixed0301.github.io
 
 google_fonts:          false
 
@@ -69,3 +91,19 @@ compress_html:
 
 sass:
   style:               compressed
+
+exclude:
+  - nul
+  - tmpclaude-344f-cwd
+  - tmpclaude-962e-cwd
+  - tmpclaude-963b-cwd
+  - tmpclaude-e9b1-cwd
+  - Gemfile
+  - Gemfile.lock
+  - package.json
+  - package-lock.json
+  - webpack.config.js
+  - CHANGELOG.md
+  - LICENSE.md
+  - NOTICE.md
+  - README.md

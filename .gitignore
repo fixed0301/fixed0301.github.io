@@ -1,11 +1,11 @@
-node_modules
-vendor
-.bundle
-.sass-cache
+_site/
+.sass-cache/
+.jekyll-cache/
 .jekyll-metadata
-.jekyll-cache
-.ruby-lsp
-*.gem
 
-#<removed/js>
-#<removed/css>
+nul
+
+tmpclaude-*
+
+.bundle/
+vendor/
