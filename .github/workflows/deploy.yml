@@ -21,12 +21,15 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Install system dependencies
+        run: sudo apt-get install -y libduktape-dev
+
       - name: Setup Ruby
         uses: ruby/setup-ruby@4a9ddd6f338a97768b8006bf671dfbad383215f4
         with:
           ruby-version: '3.1'
           bundler-cache: true
-          cache-version: 0
+          cache-version: 1
 
       - name: Setup Node.js (for KaTeX)
         uses: actions/setup-node@v4
